@@ -1,2 +1,9 @@
-# exemplo_yii_crud
-Exemplo de utilização do framework Yii.
+# Utilizando Yii
+
+Repositório com exemplo da utilização do framework PHP Yii.
+
+### CRUD Usuário
+
+Exemplo da criação da CRUD de usuários.
+
+:)
