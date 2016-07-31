@@ -1,0 +1,11 @@
+2016/07/31 00:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /var/www/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/user')
+#3 /var/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/yii_completo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_completo/index.php?r=site/user
+HTTP_REFERER=http://localhost/yii_completo/index.php?r=site/page&view=about
+---
